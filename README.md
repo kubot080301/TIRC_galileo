@@ -1,15 +1,27 @@
-# TIRC_galileo
+# TIRC_galileo ROS Package
 
-cd ~your ros workspace /src
-~/src/ git clone https://github.com/kubot080301/TIRC_galileo.git
+![](https://img.onl/ZLiQM0)
 
-then 
+cd ~ your ros workspace /src
+```sh
+git clone https://github.com/kubot080301/TIRC_galileo.git
+cd ..
+```
+Then catkin_make and source workspace 
 
-cd ros workspace
-catkin_make
-
----------------------
-
-roslaunch kubot_bring bringup.launch
-
+----
+Start your ROBOT base driver : 
+```sh
+roslaunch kubot_bringup bringup.launch
+```
+IF you want get IMU data : 
+```sh
+roslaunch kubot_bringup bringup_with_imu.launch
+```
+```sh
+rostopic echo /raw_imu
+```
+and battery voltage:
+```sh
 rostopic echo /battery_voltage
+```
