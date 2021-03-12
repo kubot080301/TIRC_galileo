@@ -1,4 +1,4 @@
-# TIRC_galileo ROS Package
+# TIRC_Galileo ROS Package
 
 ![](https://img.onl/ZLiQM0)
 
@@ -14,7 +14,7 @@ Start your ROBOT base driver :
 ```sh
 roslaunch kubot_bringup bringup.launch
 ```
-IF you want get IMU data : 
+If you want get IMU data : 
 ```sh
 roslaunch kubot_bringup bringup_with_imu.launch
 ```
