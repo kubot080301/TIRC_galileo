@@ -14,7 +14,7 @@ Start your ROBOT base driver :
 ```sh
 roslaunch kubot_bringup bringup.launch
 ```
-auto start battermeter and get battery voltage :
+auto start batterymeter and get battery voltage :
 ```sh
 rostopic echo /battery_voltage
 ```
