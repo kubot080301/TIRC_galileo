@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<package format="2">
+	<name>kubot_control</name>
+	<version>0.3.8</version>
+	<description>
+   	The kubot_control package.
+	</description>
+	<maintainer email="YunHong.Wang@ShanYangYe.com">Yun Hong</maintainer>
+
+	<license>Apache 2.0</license>
+
+	<!-- KUBOT ROS  -->
+	<author>KUBOT</author>
+	<author email="t105408001@ntut.org.tw">Yun Hong</author>
+
+	<buildtool_depend>catkin</buildtool_depend>
+
+	<!-- The export tag contains other, unspecified, tags -->
+	<export>
+		<!-- Other tools can request additional information be placed here -->
+
+	</export>
+</package>
